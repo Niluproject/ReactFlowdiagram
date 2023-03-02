@@ -15,13 +15,13 @@ function Textupdate ({ data, isConnectable }) {
         <label htmlFor="text">Text:</label>
         <input id="text" name="text" onChange={onChange} className="nodrag" />
       </div>
-      <Handle
+      {/* <Handle
         type="source"
         position={Position.Bottom}
         id="a"
         style={handleStyle}
         isConnectable={isConnectable}
-      />
+      /> */}
       <Handle type="source" position={Position.Bottom} id="b" isConnectable={isConnectable} />
     </div>
   );

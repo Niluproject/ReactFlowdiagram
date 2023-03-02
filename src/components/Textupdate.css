@@ -11,4 +11,12 @@
     color: #777;
     font-size: 12px;
   }
+
+  .btn-add {
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 10px;
+  }
+  
   

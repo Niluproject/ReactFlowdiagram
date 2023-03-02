@@ -29,7 +29,7 @@ const initialNodes = [
   },
   { 
     id: '4',
-    position: { x: 100, y: 200 } ,
+    position: { x: 500, y: 120 } ,
     data: { value: 123 },
     type: 'textUpdater' 
   },
@@ -80,7 +80,7 @@ function Flow() {
   onEdgesChange={onEdgesChange}
   onConnect={onConnect}
   nodeTypes={nodeTypes}
-  fitView
+  fitView 
   >
 <MiniMap nodeColor={nodeColor} nodeStrokeWidth={3} zoomable pannable />
 <Controls />
